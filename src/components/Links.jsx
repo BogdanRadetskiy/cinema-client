@@ -46,6 +46,11 @@ function Links(props) {
                                 Create Movie
                             </Link>
                         </Item>
+                        <Item>
+                            <Link to="/user/project" className="nav-link">
+                                Project
+                            </Link>
+                        </Item>
                         {currentUser && currentUser.role === 'admin' && <>
                             <Item>
                                 <Link to="/users/list" className="nav-link">

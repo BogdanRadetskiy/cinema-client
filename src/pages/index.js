@@ -11,6 +11,7 @@ import UserAccount from './account/UserAccount'
 import UpdateAccount from './account/UpdateAccount'
 import UsersList from './account/UsersList'
 import UpdateUserAccount from './account/UpdateUserAccount'
+import UserProject from './account/UserProject'
 
 export {
     MoviesList,
@@ -25,6 +26,7 @@ export {
     UserAccount,
     UpdateAccount,
     UsersList,
-    UpdateUserAccount
+    UpdateUserAccount,
+    UserProject
     
 }
